@@ -7,8 +7,8 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-
 public class PersonagemDAO {
+
     public void inserir(Personagem p) {
         String sql = "INSERT INTO PERSONAGEM (nome, descricao, idade) VALUES (?, ?, ?)";
 
@@ -24,6 +24,7 @@ public class PersonagemDAO {
             System.out.println("Erro ao inserir: " + ex.getMessage());
         }
     }
+
     public Personagem buscarPorId(long id) {
         String sql = "SELECT * FROM PERSONAGEM WHERE id = ?";
 
@@ -31,7 +32,6 @@ public class PersonagemDAO {
              PreparedStatement stmt = conexao.prepareStatement(sql)) {
 
             stmt.setLong(1, id);
-
             ResultSet rs = stmt.executeQuery();
 
             if (rs.next()) {
@@ -46,12 +46,38 @@ public class PersonagemDAO {
         } catch (SQLException ex) {
             System.out.println("Erro ao buscar: " + ex.getMessage());
         }
-
         return null;
     }
 
+    public void atualizar(Personagem p) {
+        String sql = "UPDATE PERSONAGEM SET nome = ?, descricao = ?, idade = ? WHERE id = ?";
 
+        try (Connection conexao = Conexao.getConexao();
+             PreparedStatement stmt = conexao.prepareStatement(sql)) {
 
+            stmt.setString(1, p.getNome());
+            stmt.setString(2, p.getDescricao());
+            stmt.setInt(3, p.getIdade());
+            stmt.setLong(4, p.getId());
+
+            stmt.executeUpdate();
+        } catch (SQLException ex) {
+            System.out.println("Erro ao atualizar: " + ex.getMessage());
+        }
+    }
+
+    public void deletar(long id) {
+        String sql = "DELETE FROM PERSONAGEM WHERE id = ?";
+
+        try (Connection conexao = Conexao.getConexao();
+             PreparedStatement stmt = conexao.prepareStatement(sql)) {
+
+            stmt.setLong(1, id);
+            stmt.executeUpdate();
+        } catch (SQLException ex) {
+            System.out.println("Erro ao deletar: " + ex.getMessage());
+        }
+    }
 }
 
 

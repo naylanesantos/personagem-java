@@ -1,11 +1,13 @@
 
-0
-java:S1220""Move this file to a named package.
-E	java:S106
-"+Replace this use of System.out by a logger.(¨ô¢¨ıÿÿÿÿ
-@	java:S106"+Replace this use of System.out by a logger.(¢°°­
-?	java:S106"+Replace this use of System.out by a logger.(ñ‘š0
-E	java:S106"+Replace this use of System.out by a logger.(‡óÖÄøÿÿÿÿ
-@	java:S106"+Replace this use of System.out by a logger.(³Œ°Ÿ
-@	java:S106"+Replace this use of System.out by a logger.(“»Ùœ
-E	java:S106"+Replace this use of System.out by a logger.(·âìƒøÿÿÿÿ
+]
+java:S1220""Move this file to a named package.8ñŞŞ¶3J$296f08ab-7832-4186-868b-66c4ff2c902a
+±
+java:S1130"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(Á¯¦ş8Éè§Ş¶3J$116f8035-d056-42d3-b48e-c35d2cb23813
+r	java:S106
+"+Replace this use of System.out by a logger.(¨ô¢¨ıÿÿÿÿ8óŞŞ¶3J$dcdb0849-da43-44ff-9a8a-41d5e5bbf0ef
+m	java:S106"+Replace this use of System.out by a logger.(¢°°­8óŞŞ¶3J$b57e166c-c8d8-4903-a2d7-034e6911890f
+l	java:S106"+Replace this use of System.out by a logger.(ñ‘š08óŞŞ¶3J$fd8a4185-c9c9-4187-9d4b-58e5ac7c9f25
+r	java:S106"+Replace this use of System.out by a logger.(‡óÖÄøÿÿÿÿ8óŞŞ¶3J$88043eb1-e392-4dac-98c7-6ba2cd54de10
+m	java:S106"+Replace this use of System.out by a logger.(³Œ°Ÿ8ôŞŞ¶3J$80840ce5-9b51-45ed-a8c8-0fa17993eee4
+m	java:S106"+Replace this use of System.out by a logger.(“»Ùœ8ôŞŞ¶3J$423ad5c8-a74f-4fc4-8e6d-96b9487b0725
+r	java:S106"+Replace this use of System.out by a logger.(·âìƒøÿÿÿÿ8ôŞŞ¶3J$1505cf88-b590-4794-af94-6a9560209311

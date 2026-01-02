@@ -1,6 +1,8 @@
 
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Δ”ςª
-@	java:S106"+Replace this use of System.out by a logger.(φΗ²
-:
-java:S6905"Don't use the query "SELECT *".(αμ‘όÿÿÿÿ
-E	java:S106/"+Replace this use of System.out by a logger.(α΄½σωÿÿÿÿ
+	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Δ”ςª8¬ή¶3J$3ede5b5d-3800-44f4-9ca4-1850110ea094
+m	java:S106"+Replace this use of System.out by a logger.(φΗ²8¬ή¶3J$394b7147-05ff-4d13-9c2e-7b402bedc289
+g
+java:S6905"Don't use the query "SELECT *".(αμ‘όÿÿÿÿ8¬ή¶3J$df82fcdf-b528-4092-9fcf-ad74422ef886
+r	java:S106/"+Replace this use of System.out by a logger.(α΄½σωÿÿÿÿ8¬ή¶3J$25a0199c-931d-41e7-be8d-a4051934a571
+r	java:S106A"+Replace this use of System.out by a logger.(Δΰ“°ψÿÿÿÿ8¬ή¶3J$1448c00e-5b73-457b-8130-9dabbe7cb4de
+m	java:S106N"+Replace this use of System.out by a logger.(όÿΒ£8¬ή¶3J$a5eefbe4-8a4f-4587-87e3-a0b03912dbe0

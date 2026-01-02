@@ -24,6 +24,9 @@ public class App {
             System.out.println("Personagem não encontrado.");
         }
 
+
+        dao.deletar(2);
+
     }
 }
 
